@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.top-header{
+    width: 100%;
+    height: 100px;
+    background: red;
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+}
+.menu ul{
+    display: flex;
+    list-style-type:none;
+}
+.menu ul li{
+    min-width: 200px;
+}
+.menu a{
+    text-decoration: none;
+    color: blue;
+}
+.main img{
+    width: 100%;
+}
+.banner{
+    width: 100%;
+    height: 400px;
+}
+.banner img{
+    width: 100%;
+    height: 400px;
+}
+.news-section{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.news{
+    width: 30%;
+    height: 400px;
+    background: grey;
+}
+.image{
+    width: 100%;
+    height: 200px;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+}
+
+.gallery-section{
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+.gallery{
+    height: 300px;
+    background: red;
+}
+.gallery img{
+    height: 100%;
+    width: 100%;
+}
+footer{
+    width: 100%;
+    height: 70px;
+    margin: auto;
+    background: lightblue;
+}
+
